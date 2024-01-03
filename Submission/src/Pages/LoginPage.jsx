@@ -86,7 +86,7 @@ export default function LoginPage({setIsValid, email, setEmail}) {
             </div>
           </section>
           <section className='flex items-start'>
-            {isMobile ? <img src = './../SignUpMobile.svg' className=''/> : <img src = './../../public/SignUpDesktop.svg' className='h-[550px] w-[400px]'/>}
+            {isMobile ? <img src = './../SignUpMobile.svg' className=''/> : <img src = './../SignUpDesktop.svg' className='h-[550px] w-[400px]'/>}
           </section>
         </div>
       </div>
