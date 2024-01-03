@@ -10,7 +10,7 @@ export default function SuccessPage({email}) {
   return (
     <div className='h-screen bg-Charcoal_Grey flex justify-center items-center'>
         <div className='h-[350px] w-[350px] bg-white rounded-3xl shadow-2xl flex flex-col pl-10 pt-8 pr-7'>
-            <img src='./../public/icon-success.svg' alt='' className='w-10' />
+            <img src='./../../public/icon-success.svg' alt='' className='w-10' />
             <div className='mt-5'>
                 <div className='text-[41px] font-[Roboto] font-bold leading-9 text-Dark_Slate_Grey'>
                     Thanks for subscribing!
