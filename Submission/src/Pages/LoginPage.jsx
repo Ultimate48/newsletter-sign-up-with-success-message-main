@@ -77,7 +77,7 @@ export default function LoginPage({setIsValid, email, setEmail}) {
                   <input type='text' className={inputBoxStyles} 
                   placeholder='email@company.com' 
                   onChange={(e) => setEmail(e.target.value)}/>
-                  <button className='w-[320px] h-[43px] md:w-[370px] md:h-[50px] rounded-[5px] bg-Dark_Slate_Grey text-White font-bold text-[16px] mt-4 hover:bg-gradient-to-r from-[#fe5378] to-[#ff6841] hover:shadow-hover'
+                  <button className='w-[320px] h-[43px] md:w-[370px] md:h-[50px] rounded-[5px] bg-Dark_Slate_Grey text-White font-bold text-[16px] mt-4 hover:bg-gradient-to-r from-[#fe5378] to-[#ff6841] hover:shadow-hover mb-8'
                   onClick={(e) => handleSubmit(e)}>
                     Subscribe to monthly newsletter
                   </button>
@@ -86,7 +86,7 @@ export default function LoginPage({setIsValid, email, setEmail}) {
             </div>
           </section>
           <section className='flex items-start'>
-            {isMobile ? <img src = './../SignUpMobile.svg' className=''/> : <img src = './../SignUpDesktop.svg' className='h-[550px] w-[400px]'/>}
+            {isMobile ? <img src = './../SignUpMobile.svg' className=''/> : <img src = './../../public/SignUpDesktop.svg' className='h-[550px] w-[400px]'/>}
           </section>
         </div>
       </div>
