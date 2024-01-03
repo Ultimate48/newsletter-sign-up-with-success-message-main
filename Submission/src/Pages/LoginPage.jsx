@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 const ListItem = ({text}) => {
   return (
     <li className='flex gap-4'>
-      <img src='./../../public/icon-list.svg' alt='' className='pb-5'/>
+      <img src='./../icon-list.svg' alt='' className='pb-5'/>
       <div className='flex justify-center items-start'>{text}</div>
     </li>
   )
@@ -86,7 +86,7 @@ export default function LoginPage({setIsValid, email, setEmail}) {
             </div>
           </section>
           <section className='flex items-start'>
-            {isMobile ? <img src = './../../public/SignUpMobile.svg' className=''/> : <img src = './../../public/SignUpDesktop.svg' className='h-[550px] w-[400px]'/>}
+            {isMobile ? <img src = './../SignUpMobile.svg' className=''/> : <img src = './../SignUpDesktop.svg' className='h-[550px] w-[400px]'/>}
           </section>
         </div>
       </div>
